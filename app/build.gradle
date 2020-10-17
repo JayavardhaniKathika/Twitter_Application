@@ -48,6 +48,9 @@ dependencies {
     //swipe to refresh dependency
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
 
+    implementation 'org.parceler:parceler-api:1.1.12'
+    annotationProcessor 'org.parceler:parceler:1.1.12'
+
     // Room for simple persistence with an ORM
     def room_version = "2.2.5"
     implementation "androidx.room:room-runtime:$room_version"
